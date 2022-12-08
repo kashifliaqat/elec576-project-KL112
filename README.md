@@ -2,5 +2,5 @@
 Term project for ELEC576 @ Rice U
 
 
-#Instructions
+# Instructions
 Unzip the Data.zip file and then run dni_predict_main.py
