@@ -145,7 +145,7 @@ def testing(model_dni, plot = False, plot_data = False):
 if __name__ == "__main__":
     
     lr = 0.001
-    model, history = main_model(acti = "LeakyReLU", opti = Adam(learning_rate=lr), epochs = 4)
+    model, history = main_model(acti = "LeakyReLU", opti = Adam(learning_rate=lr), epochs = 120)
     plotting(history)
     testing(model, plot = True, plot_data= True)
   
